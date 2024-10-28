@@ -13,10 +13,12 @@
     "keywords": [],
     "license": "ISC",
     "devDependencies": {
+        "@types/ws": "^8.5.12",
         "nodemon": "^2.0.16"
     },
     "dependencies": {
         "ts-node": "^10.9.1",
-        "ws": "^8.12.0"
+        "tsc-alias": "^1.8.10",
+        "ws": "^8.18.0"
     }
 }

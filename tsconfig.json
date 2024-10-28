@@ -3,6 +3,11 @@
         "target": "ES2020",
         "module": "es2020",
         "baseUrl": "./",
+        "paths": {
+            "src/*": [
+                "src/*"
+            ]
+        },
         "outDir": "./dist",
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
@@ -11,5 +16,11 @@
         "strictNullChecks": false,
         "skipLibCheck": true,
         "moduleResolution": "node",
-    }
+    },
+    "include": [
+        "./**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
 }
