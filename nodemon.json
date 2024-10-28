@@ -1,0 +1,7 @@
+{
+    "ext": "ts",
+    "exec": "tsc && node ./dist/index.js",
+    "events": {
+        "start": "cls || clear"
+    }
+}
